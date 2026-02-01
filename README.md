@@ -21,5 +21,5 @@ pyinstaller --paths=/.venv/lib/python3.13/site-packages/ --onefile pydo.py
 1. Install on Linux
 
 ```shell
-install ./dist/pydo/pydo /home/"$USER"/.local/bin/pydo
+install ./dist/pydo /home/"$USER"/.local/bin/pydo
 ```
