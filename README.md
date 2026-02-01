@@ -15,7 +15,7 @@ pip install docopt
 1. Run a dist build
 
 ```shell
-pyinstaller pydo.py
+pyinstaller --paths=/.venv/lib/python3.13/site-packages/ --onefile pydo.py
 ```
 
 1. Install on Linux
