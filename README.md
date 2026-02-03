@@ -28,7 +28,7 @@ install ./dist/pydo /home/"$USER"/.local/bin/pydo
 
 ## Test utils
 
-Create test commands
+Create test binaries
 
 ```shell
 gcc -o stderr_test_e0 stderr_test_e0.c
@@ -37,7 +37,7 @@ gcc -o stdout_test_e0 stdout_test_e0.c
 gcc -o stdout_test_e4 stdout_test_e4.c
 ```
 
-Install test commands
+Install test binaries
 
 ```shell
 install ./stderr_test_e0 /home/"$USER"/.local/bin/stderr_test_e0
