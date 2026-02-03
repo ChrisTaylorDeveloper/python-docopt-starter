@@ -43,7 +43,7 @@ def run_cmd(command):
 
 
 if __name__ == "__main__":
-    args = docopt(__doc__, version="Py Docopt Starter 0.1")
+    args = docopt(__doc__, version="Py Docopt Starter 1.0.0")
     # print(args)
 
     if args["e0_stderr"]:
