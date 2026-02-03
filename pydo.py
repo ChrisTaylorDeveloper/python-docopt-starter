@@ -77,6 +77,6 @@ if __name__ == "__main__":
     if args["not_found"]:
         run_cmd(
             [
-                "cmd_foo",
+                "does_not_exist",
             ]
         )
