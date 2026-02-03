@@ -31,7 +31,7 @@ def run_cmd(command):
 
     # pydo e4_stderr
     # pydo e4_stdout
-    # I think with check=True this block runs whenever return code is non-zero.
+    # With check=True this block runs whenever return code is non-zero.
     except subprocess.CalledProcessError as e:
         print(f"Command failed with return code {e.returncode}")
         print("\n--- Standard Output ---\n", e.stdout)
